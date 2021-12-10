@@ -18,7 +18,7 @@ decorator==5.1.0
 defusedxml==0.7.1
 distlib==0.3.2
 Django==4.0
-django-allauth==0.41.0
+django-allauth==0.43.0
 django-crispy-forms==1.13.0
 docutils==0.17.1
 entrypoints==0.3
@@ -74,6 +74,7 @@ pycparser==2.20
 pydocstyle==6.1.1
 pyflakes==2.3.1
 Pygments==2.10.0
+PyJWT==2.3.0
 pylama==7.7.1
 pylint==2.10.2
 pyparsing==2.4.7
@@ -96,6 +97,7 @@ smmap==4.0.0
 snowballstemmer==2.1.0
 sqlparse==0.4.2
 stevedore==3.4.0
+stripe==2.63.0
 terminado==0.12.1
 testpath==0.5.0
 toml==0.10.2
