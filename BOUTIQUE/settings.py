@@ -23,7 +23,8 @@ SECRET_KEY = 'p@ei#69*b*zz3u4yie-$()@cy^l(+x9&@6ypx+r0lm(3%_9hr7'
 DEBUG = True
 
 ALLOWED_HOSTS = []
-CSRF_TRUSTED_ORIGINS = ['https://8000-aquamarine-mackerel-273faj91.ws-eu23.gitpod.io']
+CSRF_TRUSTED_ORIGINS = ['https://8000-coral-deer-izr1bpat.ws-eu23.gitpod.io']
+
 # Application definition
 
 INSTALLED_APPS = [
