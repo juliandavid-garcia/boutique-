@@ -27,7 +27,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 DEBUG = 'DEVELOPMENT' in os.environ
 
 ALLOWED_HOSTS = ['boutique-julian.herokuapp.com', 'localhost']
-CSRF_TRUSTED_ORIGINS = ['https://boutique-julian.herokuapp.com']
+
 
 # Application definition
 
