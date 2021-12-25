@@ -27,8 +27,8 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 DEBUG = 'DEVELOPMENT' in os.environ
 
 ALLOWED_HOSTS = ['boutique-julian.herokuapp.com', 'localhost']
-CSRF_TRUSTED_ORIGINS = ['https://8000-red-tapir-0zr7lu1h.ws-eu25.gitpod.io']
-
+#CSRF_TRUSTED_ORIGINS = ['https://8000-red-tapir-0zr7lu1h.ws-eu25.gitpod.io']
+CSRF_TRUSTED_ORIGINS = ['boutique-julian.herokuapp.com']
 # Application definition
 
 INSTALLED_APPS = [
